@@ -85,3 +85,120 @@ article >p {
 aside > a{
 	display: inline-block;
 }
+/*.content_pricing{
+	margin-left: 150px;
+}*/
+
+.content_pricing h1{
+	  text-transform: uppercase;
+      font-size: 25px;
+      padding: 0;
+	  margin: 0;
+}
+.content_pricing h2{
+	  padding: 0;
+	  margin: 0;
+	  text-transform: uppercase;
+	  font-size: 15px;
+	  font-weight: 100;
+
+}
+.pricing_features div{
+	margin-top:  : 100px;
+}
+
+.pricing_title{
+	  text-transform: uppercase;
+	  border-bottom: 3px solid #f5f5f5;
+	  text-align: center;
+	  color:#000000;
+	  padding-bottom: 10px;
+     font-weight: bold;
+}
+
+.pricing_cost{
+      border-bottom: 2px solid #f5f5f5;
+	  text-align: center;
+	  padding-bottom: 10px;
+	  color:#f69b37;
+}	
+.features{
+	  height:300px;
+	  width:200px;
+	  float: left;
+	  border:3px solid #f5f5f5;
+	  margin-left: 25px;
+	  margin-top: 25px;
+	  position: relative;
+
+}
+
+.features ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 30px;
+  color:#595959;
+
+}
+.features li{
+	  padding-bottom: 10px;
+
+}
+.features button{
+position:absolute;
+bottom: 6px;
+left:50px;
+margin-bottom: 10px;
+}
+.rounded_btn{
+	text-transform: uppercase;
+	border-radius:40px;
+	border: none;
+	background-color: #29C2E1;
+	color: white;
+	padding: 10px 20px;
+	font-size: 12px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix{
+  border-top: inset thin;
+  padding-top: 40px;
+  font-size: 14px;
+}
+.content_team{
+ padding-top: 40px;
+ background-color:#e5eef0;
+ 	height:300px;
+
+
+}
+.content_team h1{
+	  text-transform: uppercase;
+      font-size: 25px;
+      padding: 0;
+	  margin: 0;
+}
+.content_team h2{
+	  padding: 0;
+	  margin: 0;
+	  text-transform: uppercase;
+	  font-size: 15px;
+	  font-weight: 100;
+
+}
+.team_members{
+	height:100px;
+	background-color:#000000;
+
+
+}
