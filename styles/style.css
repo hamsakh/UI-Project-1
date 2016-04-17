@@ -82,12 +82,16 @@ body{
 }
 .nav-bar{
   float:left;
-  
   position:relative;
+  margin-left:150px
+}
+.first_link{
+  padding-left:200px;
 }
 .header-contactus{
   float:left;
 }
+
 .nav_pages ul{
   display: none;
   margin:0;
@@ -105,6 +109,9 @@ body{
 }
 nav{
   text-align: center;
+}
+.btn_margin{
+  margin-top:10px;
 }
 
 /*-------------------------------------------HEADER LARGE IMAGE---------------------------*/
@@ -218,11 +225,13 @@ cite a{
   text-transform: uppercase;
    padding:0;
   margin: 0;
+  font-size: 25px;
+
 }
 .clients h2{
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 12px;
   padding:0;
   margin: 0;
 }
@@ -265,11 +274,13 @@ cite a{
   text-transform: uppercase;
   padding: 0;
   margin: 0;
+  font-size: 25px;
+
 }
 .features h2{
   text-transform: uppercase;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 12px;
   padding: 0;
   margin: 0;
 }
@@ -320,7 +331,7 @@ cite a{
   padding: 0;
   margin: 0;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
   font-weight:100;
 }
 .pricing_features div{
@@ -395,7 +406,7 @@ cite a{
   padding: 0;
   margin: 0;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 100;
 
 }
