@@ -837,4 +837,150 @@ padding-left:70px;
   text-align: center;
   margin-top: 40px;
 }
+
+/*===================================News PAGE============================*/
+
+.news_mainimg{
+  background-image: url(../images/news/news.jpg);
+  width:1970px;
+  height: 310px;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+.newsimg_content{
+  padding: 100 0;
+}
+
+.newsimg_content h1{
+  text-transform: uppercase;
+  margin: 0;
+  color: white;
+  font-family: "Karla", sans-serif;
+  padding-top: 100px;
+  padding-left: 160px;
+  font-size: 70px; 
+}
+.newsimg_content p{
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 15px;
+  color: white;
+  font-family: "Karla", sans-serif;
+  padding-left: 160px;
+  margin: 0;
+}
+.news{
+  margin:100 200;
+}
+.news_tableimg{
+  background-image: url(../images/news/newsimage.jpg);
+  width:360px;
+  height: 378px;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+.news_table{
+    border: none;
+}
+.news_table tr{
+  background-color: #f2f2f2;
+}
+.news_table th{
+  width:30px;
+  overflow: hidden;
+}
+.news_table p:nth-child(1){
+    font-size: 45px; 
+  font-family: "Karla", sans-serif;
+}
+.news_table p:nth-child(2){
+    font-size: 25px; 
+  font-family: "Karla", sans-serif;
+  margin-top: -50px;
+}
+.news_table p:nth-child(3){
+   color: #a2a8ac;
+  font-family: "Myriad Pro", sans-serif;
+   font-size: 20px;
+}
+
+/*===================================8 Comments============================*/
+
+.allcomments{
+  margin:100 200;
+}
+.commentpost{
+   display: inline-block;
+
+}
+.allcomments_img{
+  background-image: url(../images/girls.jpg);
+  width:68px;
+  height: 68px;
+  display: inline-block;
+  background-repeat:no-repeat;
+  text-align: center; 
+  float: left;
+  margin-top: 20px;
+}
+.comment_comment{
+  float: left;
+}
+.commentpost p:nth-child(1){
+  font-family: "Karla", sans-serif;
+   font-size: 15px;
+   float: left;
+   padding-left: 15px;
+}
+.commentpost p:nth-child(2){
+  font-family: "Karla", sans-serif;
+   font-size: 13px;
+   float: left;
+   padding-left: 30px;
+   padding-bottom: 5px;
+}
+
+.commentpost p:nth-child(3){
+  font-family: "Karla", sans-serif;
+   font-size: 15px;
+   float: left;
+   padding-left: 30px;
+
+}
+.commentpost a{
+  font-family: "Karla", sans-serif;
+  color: orange;
+  text-decoration: none;
+  float: left;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 600px;
+  padding-top: 10px;
+}
+.commentpost p:nth-child(5){
+  font-family: "Karla", sans-serif;
+  font-size: 13px;
+  display: inline-block;
+  width: 75%;
+  margin-left: -210px;
+}
+.comment_indent{
+  padding-left: 100px;
+  padding-top: -70px;
+
+}
+.post_indent{
+  margin-left: 100px;
+}
+.post_indent a{
+  font-family: "Karla", sans-serif;
+  color: orange;
+  text-decoration: none;
+  float: left;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 500px;
+  padding-top: 10px;
+}
+
 /*===============================END NEWS DETAILS =============================*/
