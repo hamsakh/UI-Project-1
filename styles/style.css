@@ -787,4 +787,54 @@ padding-left:70px;
 
 
 /*=================================end contact us=============================*/
+/*=================================NEWS DETAILS================================*/
 
+.news-header h3, .news-header p{
+ margin-left: 190px;
+ text-transform: uppercase;
+}
+.news-header p{
+  font-size: 10pt;
+  margin-top: -15px;
+}
+
+.news-image{
+  
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+ margin-left: 190px;
+}
+.news-container{
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #e5eef0;
+  padding: 40px; 
+}
+
+.news-container p{
+  text-align: center;
+  font-size: 10pt;
+  
+}
+
+.news-container h3{
+  text-align: center;
+  font-weight: 500;
+}
+.news-container .news-day{
+  font-size: 30pt;
+
+}
+.news-container .news-date{
+  margin-top: -40px;
+  text-transform: uppercase;
+
+}
+.news-buttons{
+  text-align: center;
+  margin-top: 40px;
+}
+/*===============================END NEWS DETAILS =============================*/
